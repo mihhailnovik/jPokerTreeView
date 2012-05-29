@@ -1,0 +1,41 @@
+<data round="preflop">
+	<node id="0000000" name="Root(1.5)" value="0" player="0">
+		<node id="0000001" name="Bet(1.05)" value="0.72" player="1">
+			<node id="0000002" name="Call(1.05)" value="2.46" player="2" />
+			<node id="0000003" name="Fold(0) 5" value="1.5" player="2" />
+			<node id="0000004" name="Raise(3.15)" value="-1.05" player="2">
+				<node id="0000005" name="Call(2.1)" value="-3.15" player="1" />
+				<node id="0000006" name="Fold(0)" value="-1.05" player="1" />
+				<node id="0000007" name="Raise(9.45)" value="-1.56" player="1">
+					<node id="0000008" name="Fold(0)" value="14.1" player="2" />
+					<node id="0000009" name="Call(6.3)" value="5.9" player="2" />
+					<node id="0000010" name="Raise(28.35)" value="-10.5" player="2">
+						<node id="0000011" name="Call(18.9)" value="-29.4" player="1" />
+						<node id="0000012" name="Fold(0)" value="-10.5" player="1" />
+					</node>
+				</node>
+			</node>
+		</node>
+		<node id="0000013" name="Fold(0)" value="0" player="1" />
+		<node id="0000014" name="Check(0)" value="4.75" player="1">
+			<node id="0000015" name="Check(0)" value="0" player="2" />
+			<node id="0000016" name="Fold(0)" value="1.5" player="2" />
+			<node id="0000017" name="Bet(1.05)" value="8.65" player="2">
+				<node id="0000018" name="Fold(0)" value="0" player="1" />
+				<node id="0000019" name="Call(1.05)" value="-1.05" player="1" />
+				<node id="0000020" name="Raise(3.15)" value="8.65" player="1">
+					<node id="0000021" name="Call(2.1)" value="3.29" player="2" />
+					<node id="0000022" name="Fold(0)" value="5.7" player="2" />
+					<node id="0000023" name="Raise(9.45)" value="15.01" player="2">
+						<node id="0000024" name="Call(6.3)" value="-9.45" player="1" />
+						<node id="0000025" name="Fold(0)" value="-3.15" player="1" />
+						<node id="0000026" name="Raise(28.35)" value="15.01" player="1">
+							<node id="0000027" name="Fold(0)" value="40.35" player="2" />
+							<node id="0000028" name="Call(18.9)" value="14.5" player="2" />
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</data>

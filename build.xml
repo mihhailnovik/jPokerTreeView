@@ -1,0 +1,28 @@
+<project name="id3">
+	<path id="libraries">
+		<fileset dir="lib" includes="**/*.jar" />
+	</path>
+
+	<target name="clean">
+  		<delete includeemptydirs="true">
+    			<fileset dir="bin" includes="**/*"/>
+  		</delete>
+
+	</target>
+
+	<target name="build" depends="clean">
+		<echo message="Building..." />
+		<javac srcdir="src" source="1.6" target="1.6" destdir="bin" classpathref="libraries" />
+	</target>
+
+	<target name="jar" depends="build">
+		<echo message="Making jar PokerTreeVisualizer.jar" />
+		<jar destfile="PokerTreeVisualizer.jar" basedir="bin">
+			<manifest>
+				<attribute name="Main-Class" value="mi.poker.gui.tree.Main" />
+				<attribute name="Class-Path" value="lib/jdom-2.0.1.jar"/>
+			</manifest>
+		</jar>
+	</target>
+
+</project>

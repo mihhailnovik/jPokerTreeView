@@ -1,0 +1,45 @@
+<data round="preflop">
+	<node id="0000000" name="Root(1.5)" value="0" player="0">
+		<node id="0000001" name="Call(1.05)" value="2.46" player="2">
+			<node id="0000006" name="Bet(10.5)" value="-1.5" player="1" />
+			<node id="0000004" name="Call(1.05)" value="7.5" player="1">
+				<node id="0000006" name="Bet(10.5)" value="-3.5" player="2">
+					<node id="0000006" name="Bet(10.5)" value="-3.5" player="2" />
+					<node id="0000006" name="Fold(0)" value="8" player="2" />
+				</node>
+			</node>
+			<node id="0000005" name="Fold(0)" value="2" player="1" />
+		</node>
+		<node id="0000002" name="Fold(0)" value="17" player="2">
+			<node id="0000005" name="Fold(0)" value="3.5" player="1">
+				<node id="0000006" name="Bet(10.5)" value="2" player="2" />
+				<node id="0000006" name="Fold(0)" value="8" player="2" />
+			</node>
+			<node id="0000005" name="Fold(0)" value="9.5" player="1" />
+		</node>
+		<node id="0000003" name="Bet(100)" value="-10.5" player="2">
+			<node id="0000005" name="Fold(0)" value="3.5" player="1">
+				<node id="0000006" name="Bet(10.5)" value="2" player="2" />
+				<node id="0000006" name="Fold(0)" value="8" player="2" />
+			</node>
+			<node id="0000005" name="Fold(0)" value="1.5" player="1" />
+		</node>
+		<node id="0000007" name="Bet(2)" value="6.46" player="2">
+			<node id="0000004" name="Call(1.05)" value="0.5" player="1" />
+			<node id="0000004" name="Call(1.05)" value="-34.5" player="1">
+				<node id="0000006" name="Bet(10.5)" value="-3.5" player="2" />
+				<node id="0000006" name="Fold(0)" value="8" player="2" />
+			</node>
+			<node id="0000004" name="Call(1.05)" value="7.5" player="1">
+				<node id="0000006" name="Bet(10.5)" value="-3.5" player="2">
+					<node id="0000004" name="Call(1.05)" value="1.5" player="1">
+						<node id="0000006" name="Bet(10.5)" value="-3.5" player="2" />
+						<node id="0000006" name="Fold(0)" value="8" player="2" />
+					</node>
+				</node>
+			</node>
+		</node>
+
+	</node>
+
+</data>
