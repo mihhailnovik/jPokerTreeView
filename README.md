@@ -1,4 +1,4 @@
 jPokerTreeView
 ==============
 
-Unix-style tool for visualization trees, which represents all possible states of the game of poker, using different drawing algorithms
+Unix-style tool for visualization trees, which represents possible variations of one bettring round, using different drawing algorithms
